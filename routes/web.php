@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
+
     return view('index');
 });
 route::view('new','charts-google');
