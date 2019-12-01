@@ -5,7 +5,7 @@
 <!-- Mirrored from myrathemes.com/scoxe/vertical/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 24 Nov 2019 15:55:29 GMT -->
 <head>
     <meta charset="utf-8" />
-    <title>Scoxe - Admin & Dashboard Template</title>
+    <title>MEDLAb</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="MyraStudio" name="author" />

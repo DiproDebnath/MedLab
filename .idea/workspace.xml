@@ -1,14 +1,579 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ChangeListManager">
+    <list default="true" id="a82ac5d2-d4e0-4f6e-b104-fad0748193b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MedLab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/css/icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/css/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/dripicons-v2.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/dripicons-v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/dripicons-v2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/dripicons-v2.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/dripicons-v2d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-brands-400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-brands-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-brands-401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-regular-400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-regular-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-regular-401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-solid-900.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-solid-900d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/fa-solid-901.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/feather144f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/feather144f.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/feather144f.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/materialdesignicons-webfont61e3-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/materialdesignicons-webfont61e3.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/materialdesignicons-webfont61e3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/materialdesignicons-webfont61e3.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/materialdesignicons-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/404-error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/500-error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/bg-login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/bg-register.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/flags/germany.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/flags/italy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/flags/russia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/flags/spain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/flags/us.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/maintenance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/media/sm-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/media/sm-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/media/sm-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/media/sm-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/media/sm-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/media/sm-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/media/sm-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/users/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/metismenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/simplebar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/waves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/pages/advanced-plugins-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/pages/dashboard-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/pages/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/pages/google-chart-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/pages/mask-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/pages/sweet-alert-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/pages/validation-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/autonumeric/autoNumeric-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/bootstrap-colorpicker/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/bootstrap-colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/chart-js/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/buttons.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/buttons.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/buttons.flash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/buttons.html5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/buttons.print.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/dataTables.buttons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/dataTables.keyTable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/dataTables.responsive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/dataTables.select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/pdfmake.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/responsive.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/responsive.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/select.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/datatables/vfs_fonts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/dropify/dropify.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/dropify/dropify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/dropify/fonts/dropify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/dropify/fonts/dropify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/dropify/fonts/dropify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/dropify/fonts/dropify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/fullcalendar/css/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/fullcalendar/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/jquery-knob/jquery.knob.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/jquery-mask/jquery.mask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/jquery-sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/jvectormap/gdp-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/jvectormap/jquery-jvectormap-2.0.2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/jvectormap/jquery-jvectormap-uk-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/jvectormap/jquery-jvectormap-us-aea-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/jvectormap/jquery-jvectormap-us-il-chicago-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/katex/katex.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/moment/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/morris-js/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/quill/quill.bubble.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/quill/quill.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/quill/quill.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/quill/quill.snow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/raphael/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/sweetalert2/sweetalert2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/sweetalert2/sweetalert2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/switchery/switchery.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/plugins/switchery/switchery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/css/icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/css/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/dripicons-v2.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/dripicons-v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/dripicons-v2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/dripicons-v2.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/dripicons-v2d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-brands-400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-brands-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-brands-401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-regular-400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-regular-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-regular-401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-solid-900.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-solid-900d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/fa-solid-901.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/feather144f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/feather144f.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/feather144f.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/materialdesignicons-webfont61e3-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/materialdesignicons-webfont61e3.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/materialdesignicons-webfont61e3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/materialdesignicons-webfont61e3.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/fonts/materialdesignicons-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/404-error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/500-error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/bg-login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/bg-register.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/flags/germany.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/flags/italy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/flags/russia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/flags/spain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/flags/us.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/maintenance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/media/sm-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/media/sm-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/media/sm-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/media/sm-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/media/sm-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/media/sm-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/images/media/sm-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/js/metismenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/js/simplebar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/js/waves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/pages/advanced-plugins-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/pages/dashboard-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/pages/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/pages/google-chart-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/pages/mask-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/pages/sweet-alert-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/assets/pages/validation-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/forms-elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/forms-mask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/forms-plugins.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/forms/forms-validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/css/icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/css/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/dripicons-v2.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/dripicons-v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/dripicons-v2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/dripicons-v2.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/dripicons-v2d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-brands-400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-brands-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-brands-401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-regular-400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-regular-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-regular-401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-solid-900.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-solid-900d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/fa-solid-901.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/feather144f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/feather144f.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/feather144f.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/materialdesignicons-webfont61e3-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/materialdesignicons-webfont61e3.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/materialdesignicons-webfont61e3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/materialdesignicons-webfont61e3.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/fonts/materialdesignicons-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/404-error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/500-error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/bg-login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/bg-register.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/flags/germany.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/flags/italy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/flags/russia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/flags/spain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/flags/us.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/maintenance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/media/sm-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/media/sm-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/media/sm-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/media/sm-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/media/sm-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/media/sm-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/images/media/sm-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/js/metismenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/js/simplebar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/js/waves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/pages/advanced-plugins-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/pages/dashboard-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/pages/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/pages/google-chart-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/pages/mask-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/pages/sweet-alert-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/assets/pages/validation-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/icons-dripicons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/icons-feather.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/icons-fontawesome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/icon/icons-materialdesign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/css/icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/css/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/dripicons-v2.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/dripicons-v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/dripicons-v2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/dripicons-v2.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/dripicons-v2d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-brands-400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-brands-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-brands-401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-regular-400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-regular-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-regular-401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-solid-900.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-solid-900d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/fa-solid-901.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/feather144f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/feather144f.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/feather144f.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/materialdesignicons-webfont61e3-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/materialdesignicons-webfont61e3.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/materialdesignicons-webfont61e3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/materialdesignicons-webfont61e3.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/fonts/materialdesignicons-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/404-error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/500-error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/bg-login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/bg-register.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/flags/germany.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/flags/italy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/flags/russia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/flags/spain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/flags/us.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/maintenance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/media/sm-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/media/sm-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/media/sm-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/media/sm-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/media/sm-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/media/sm-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/images/media/sm-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/js/metismenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/js/simplebar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/js/waves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/pages/advanced-plugins-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/pages/dashboard-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/pages/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/pages/google-chart-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/pages/mask-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/pages/sweet-alert-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/assets/pages/validation-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-embeds.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-general.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-media-objects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-modals.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-progressbars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-scrollspy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-spinners.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-sweetalerts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-tabs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-toasts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-tooltips-popovers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/component/ui/ui-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/charts-google.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages-404.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages-500.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages-invoice.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages-login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages-recoverpw.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages-register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/tables-datatables.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="49" column="50" selection-end-line="539" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/server.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/MedLab.iml" />
+        <option value="$PROJECT_DIR$/.idea/php.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="180" />
     <option name="y" value="104" />
     <option name="width" value="1080" />
     <option name="height" value="658" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MedLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedLab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MedLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedLab" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MedLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedLab" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MedLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedLab" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a82ac5d2-d4e0-4f6e-b104-fad0748193b1" name="Default Changelist" comment="" />
+      <created>1574886734433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574886734433</updated>
+      <workItem from="1574886740366" duration="752000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="752000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32934928" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32934928" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="49" column="50" selection-end-line="539" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
