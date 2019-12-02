@@ -18,8 +18,8 @@ class CreateMedicineDatabasesTable extends Migration
             $table->string('medicine_name');
             $table->string('generic_name');
             $table->bigIncrements('medicine_type_id');
-            $table->bigIncrements('manufacturer_id');            
-            $table->string('quantity');            
+            $table->bigIncrements('manufacturer_id');
+            $table->string('strength');
             $table->string('price');
             $table->timestamps();
         });

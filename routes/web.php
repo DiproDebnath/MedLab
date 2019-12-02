@@ -12,20 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('charts-google');
-});
-Route::get('/new', function () {
     return view('index');
 });
-Route::get('/new2', function () {
-    return view('pages-invoice');
-});
-Route::get('/new3', function () {
-    return view('pages-login');
-});
-Route::get('/new4', function () {
-    return view('pages-register');
-});
-Route::get('/new5', function () {
-    return view('table-datatables');
-});
+route::view('new','charts-google');
+route::view('new1','index');
+route::view('new2','tables-datatables');
+route::view('new3','pages-login');
+route::view('new4','pages-invoice');
+route::view('test','nw.new');
+
