@@ -2,13 +2,10 @@
     <div class="navbar-header">
         <!-- LOGO -->
         <div class="navbar-brand-box d-flex align-items-left">
-            <a href="index-2.html" class="logo">
-                <i class="mdi mdi-album"></i>
-                <span>
-                            MADLAB
-                        </span>
+            <a href="#" class="logo">
+                <span>MADLAB</span>
             </a>
-
+            <button type='button' class='btn btn-sm mr-2 d-lg-block d-sm-none px-3 font-size-16 header-item waves-effect waves-light' id='btn-sidebar'> <i class='fa fa-fw fa-bars'></i></button>
             <button type="button" class="btn btn-sm mr-2 d-lg-none px-3 font-size-16 header-item waves-effect waves-light" id="vertical-menu-btn">
                 <i class="fa fa-fw fa-bars"></i>
             </button>
