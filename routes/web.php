@@ -12,6 +12,7 @@
 */
 
 Route::resource('/medicine', 'MedicineController');
+//Route::get('/medicine', 'MedicineController@index')->name('ajax.posts.index');
 Route::get('/', function(){
     return view('index');
 });

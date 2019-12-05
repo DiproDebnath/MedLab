@@ -24,22 +24,21 @@
                                         Manage your medicine
                                     </p>
 
-                                    <table id="key-datatable" class="table display" style="width:100%">
+                                    <table id="key-datatable" class="table dt-responsive" style="width:100%">
                                         <thead>
                                             <tr>
                                                 <th>#</th>
                                                 <th>Medicine Name</th>
+                                                <th>Pharmaceutical</th>
                                                 <th>Medicine Type</th>
                                                 <th>Generic Name</th>
-                                                <th>Pharmaceutical</th>
-
                                                 <th>Strength</th>
                                                 <th>Price</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                        @foreach($medicines as $key => $medicine)
+                                        {{-- @foreach($medicines as $key => $medicine)
                                             <tr>
                                                 <td>{{++$key}}</td>
                                                 <td>{{$medicine->medicine_name}}</td>
@@ -51,7 +50,7 @@
                                                 <td> .</td>
 
                                             </tr>
-                                        @endforeach
+                                        @endforeach --}}
                                         </tbody>
                                     </table>
 
@@ -66,3 +65,4 @@
             </div>
             <!-- End Page-content -->
 @endsection
+
