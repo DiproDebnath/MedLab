@@ -11,7 +11,7 @@
                                 <h4 class="mb-0 font-size-18"> </h4>
                             </div>
                         </div>
-                    </div>     
+                    </div>
                     <!-- end page title -->
 
 
@@ -24,7 +24,7 @@
                                         Manage your medicine
                                     </p>
 
-                                    <table id="key-datatable" class="table display compact ">
+                                    <table id="key-datatable" class="table display" style="width:100%">
                                         <thead>
                                             <tr>
                                                 <th>#</th>
@@ -43,9 +43,9 @@
                                             <tr>
                                                 <td>{{++$key}}</td>
                                                 <td>{{$medicine->medicine_name}}</td>
-                                                <td>{{$medicine->medicine_type_id}}</td>
+                                                <td>{{$medicine->medicinetype->type_name}}</td>
                                                 <td>{{$medicine->generic_name}}</td>
-                                                <td>{{$medicine->manufacturer_id}}</td>
+                                                <td>{{$medicine->manufacturer->manufacturer_name}}</td>
                                                 <td>{{$medicine->strength}}</td>
                                                 <td>{{$medicine->price}}</td>
                                                 <td> .</td>

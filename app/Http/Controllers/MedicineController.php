@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Manufacturer;
 use App\Medicine;
 use App\MedicineDatabase;
 use Illuminate\Http\Request;
@@ -15,9 +16,9 @@ class MedicineController extends Controller
      */
     public function index()
     {
-        $medicines = MedicineDatabase::all();
-        //$counter = 1;
-        return view('medicine.show_medicine', compact('medicines' ));
+        $medicines = MedicineDatabase::with('manufacturer', 'medicinetype')->get();
+        return $medicines;
+        //return view('medicine.show_medicine', compact('medicines' ));
 
     }
 

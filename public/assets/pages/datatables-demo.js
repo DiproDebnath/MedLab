@@ -10,8 +10,8 @@ $(document).ready(function () {
 
    var b = $("#key-datatable").DataTable({
         keys: !0,
-       "scrollX": true,
-        buttons: ["copy", "print", "pdf"],
+        scrollX: true,
+        // buttons: ["copy", "print", "pdf"],
         language: {
                     paginate: {
                         previous: "<i class='mdi mdi-chevron-left'>",
@@ -23,7 +23,9 @@ $(document).ready(function () {
         }
     });
 
-   b.buttons().container().appendTo("#key-datatable_wrapper .col-md-6:eq(0)");
+   // b.buttons().container().appendTo("#key-datatable_wrapper .col-md-6:eq(0)");
 
+    const d = document.querySelector('.dataTables_scrollHeadInner');
+    d.style.width = d.firstChild.style.width = '100%';
 
 });
