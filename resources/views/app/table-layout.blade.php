@@ -4,6 +4,7 @@
 @section('header_files')
 
 @endsection
+
 @section('body_content')
     @yield("content")
 @endsection
