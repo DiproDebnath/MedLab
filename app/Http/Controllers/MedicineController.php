@@ -47,7 +47,7 @@ class MedicineController extends Controller
         ->make(true);
        }
 
-       return view('medicine.show_medicine');
+       return view('medicine.ShowMedicine');
     }
 
     /**
@@ -57,7 +57,7 @@ class MedicineController extends Controller
      */
     public function create()
     {
-        return view('medicine.add_medicine');
+        return view('medicine.AddMedicine');
     }
 
     /**

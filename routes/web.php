@@ -12,7 +12,8 @@
 */
 
 Route::resource('/medicine', 'MedicineController');
-//Route::get('/medicine', 'MedicineController@index')->name('ajax.posts.index');
+Route::view('/manufacturer/create','manufacturer.AddManufacturer');
+Route::view('/medicin/type','medicine.AddMedicineType');
 Route::get('/', function(){
     return view('index');
 });
