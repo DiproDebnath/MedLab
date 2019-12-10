@@ -4,5 +4,43 @@
  File: Datatables
 */
 
+$(document).ready(function() {
+    var b = $("#key-datatable").DataTable({
+        keys: !0,
+        scrollX: true,
+        // buttons: ["copy", "print", "pdf"],
+        processing: true,
+        serverSide: true,
+        ajax: window.location.href,
+        columns: [
+            { data: "DT_RowIndex" },
+            { data: "medicine_name" },
+            { data: "company_name" },
+            { data: "type_name" },
+            { data: "generic_name" },
+            { data: "strength" },
+            { data: "price" },
+            { data: "dash" }
+        ],
+        language: {
+            paginate: {
+                previous: "<i class='mdi mdi-chevron-left'>",
+                next: "<i class='mdi mdi-chevron-right'>"
+            }
+        },
 
-$(document).ready(function(){$("#basic-datatable").DataTable({language:{paginate:{previous:"<i class='mdi mdi-chevron-left'>",next:"<i class='mdi mdi-chevron-right'>"}},drawCallback:function(){$(".dataTables_paginate > .pagination").addClass("pagination-rounded")}});var a=$("#datatable-buttons").DataTable({lengthChange:!1,buttons:["copy","print","pdf"],language:{paginate:{previous:"<i class='mdi mdi-chevron-left'>",next:"<i class='mdi mdi-chevron-right'>"}},drawCallback:function(){$(".dataTables_paginate > .pagination").addClass("pagination-rounded")}});$("#selection-datatable").DataTable({select:{style:"multi"},language:{paginate:{previous:"<i class='mdi mdi-chevron-left'>",next:"<i class='mdi mdi-chevron-right'>"}},drawCallback:function(){$(".dataTables_paginate > .pagination").addClass("pagination-rounded")}}),$("#key-datatable").DataTable({keys:!0,language:{paginate:{previous:"<i class='mdi mdi-chevron-left'>",next:"<i class='mdi mdi-chevron-right'>"}},drawCallback:function(){$(".dataTables_paginate > .pagination").addClass("pagination-rounded")}}),a.buttons().container().appendTo("#datatable-buttons_wrapper .col-md-6:eq(0)"),$("#complex-header-datatable").DataTable({language:{paginate:{previous:"<i class='mdi mdi-chevron-left'>",next:"<i class='mdi mdi-chevron-right'>"}},drawCallback:function(){$(".dataTables_paginate > .pagination").addClass("pagination-rounded")},columnDefs:[{visible:!1,targets:-1}]}),$("#state-saving-datatable").DataTable({stateSave:!0,language:{paginate:{previous:"<i class='mdi mdi-chevron-left'>",next:"<i class='mdi mdi-chevron-right'>"}},drawCallback:function(){$(".dataTables_paginate > .pagination").addClass("pagination-rounded")}})});
+        drawCallback: function() {
+            $(".dataTables_paginate > .pagination").addClass(
+                "pagination-rounded"
+            );
+        }
+    });
+    var btn = document.querySelector("#btn-sidebar");
+
+    btn.addEventListener("click", () => {
+        var div = document.querySelector(".dataTables_scrollHeadInner");
+        div.style.width = div.firstChild.style.width = "100%";
+    });
+
+    // b.buttons().container().appendTo("#key-datatable_wrapper .col-md-6:eq(0)");
+});
