@@ -29,7 +29,7 @@
     <script src="{{asset('assets/plugins/datatables/pdfmake.min.js')}}"></script>
     <script src="{{asset('assets/plugins/datatables/vfs_fonts.js')}}"></script>
     <!-- third party js ends -->
-
+@yield('script')
     <!-- Datatables init -->
      <script src="{{asset('assets/pages/datatables-demo.js')}}"></script>
 

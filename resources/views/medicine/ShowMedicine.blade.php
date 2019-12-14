@@ -66,3 +66,38 @@
             <!-- End Page-content -->
 @endsection
 
+@section('script')
+    <script>
+        $("#key-datatable").DataTable({
+            keys: !0,
+            scrollX: true,
+            // buttons: ["copy", "print", "pdf"],
+            processing: true,
+            serverSide: true,
+            deferRender: true,
+            ajax: window.location.href,
+            columns: [
+                { data: "DT_RowIndex", searchable: "false", orderable: "false" },
+                { data: "medicine_name", name: 'medicine_name' },
+                { data: "manufacturer_name", name: 'manufacturers.manufacturer_name' },
+                { data: "type_name", name: 'medicine_types.type_name' },
+                { data: "generic_name" },
+                { data: "strength" },
+                { data: "price" },
+                { data: "dash" }
+            ],
+            language: {
+                paginate: {
+                    previous: "<i class='mdi mdi-chevron-left'>",
+                    next: "<i class='mdi mdi-chevron-right'>"
+                }
+            },
+
+            drawCallback: function() {
+                $(".dataTables_paginate > .pagination").addClass(
+                    "pagination-rounded"
+                );
+            }
+        });
+    </script>
+@endsection

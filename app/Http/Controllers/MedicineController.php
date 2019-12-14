@@ -7,6 +7,7 @@ use App\Medicine;
 use App\MedicineDatabase;
 use Illuminate\Http\Request;
 use Yajra\DataTables\DataTables;
+use function MongoDB\BSON\toJSON;
 
 class MedicineController extends Controller
 {
@@ -17,37 +18,19 @@ class MedicineController extends Controller
      */
     public function index(Request $request)
     {
-
      if ($request->ajax()) {
-        //getting data from database
+         //getting data from database
+         $medicine_database = MedicineDatabase::join('manufacturers', 'medicine_databases.manufacturer_id', '=', 'manufacturers.id' )
+             ->join('medicine_types', 'medicine_databases.medicine_type_id', '=', 'medicine_types.id' )
+             ->select('medicine_name', 'generic_name', 'manufacturers.manufacturer_name', 'medicine_types.type_name', 'strength', 'price');
+         return Datatables::of($medicine_database)
+             ->addIndexColumn()
+             ->editColumn('price', '৳ {{$price}}')
+             ->addColumn('dash', function (){ return "dash";})
+             ->make(true);
+     }
+         return view('medicine.ShowMedicine');
 
-         $medicine = MedicineDatabase::with( array(
-            'manufacturer' => function($query){
-                $query->select('id', 'manufacturer_name');
-            },
-            'medicinetype' => function($query){
-                $query->select('id', 'type_name');
-            }
-        ))
-             // collect data by pharmaceutical id
-             ->where('manufacturer_id', '=', '1')->get();
-
-        //sending data to datatable
-        return Datatables::of($medicine)
-        ->addIndexColumn()
-        ->addColumn('company_name', function($row){
-            return $row->manufacturer->manufacturer_name;
-        })
-        ->addColumn('type_name', function($row){
-            return $row->medicinetype->type_name;
-        })
-            ->addColumn('dash', function($row){
-                return "dash";
-            })
-        ->make(true);
-       }
-
-       return view('medicine.ShowMedicine');
     }
 
     /**

@@ -13,8 +13,12 @@
 
 Route::resource('/medicine', 'MedicineController');
 Route::view('/manufacturer/create','manufacturer.AddManufacturer');
-Route::view('/medicin/type','medicine.AddMedicineType');
+Route::view('/medicine/type','medicine.AddMedicineType');
+Route::view('/purchase/create','purchase.AddPurchase');
 Route::get('/', function(){
     return view('index');
 });
+
+
+
 
