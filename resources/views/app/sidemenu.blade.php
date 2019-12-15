@@ -9,28 +9,44 @@
                 <li class="menu-title">Menu</li>
 
                 <li>
-                    <a href="index-2.html" class="waves-effect"><i class="feather-airplay"></i><span class="badge badge-pill badge-info float-right">3</span><span>Dashboard</span></a>
+                    <a href="/" class="waves-effect"><i class="feather-airplay"></i>
+                        {{--<span class="badge badge-pill badge-info float-right">3</span>--}}
+                        <span>Dashboard</span>
+                    </a>
                 </li>
 
 
                 <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect"><i class="feather-list"></i><span>Tables</span></a>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="feather-list">
+                        </i><span>Manufracturers</span>
+                    </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="tables-datatables.html">Data Table</a></li>
+                        <li><a href="{{url('manufacturer/create')}}">Add Manufacturer</a></li>
+                        <li><a href="{{url('manufacturers')}}">Show Manufacturers</a></li>
                     </ul>
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect"><i class="feather-bar-chart-2"></i><span>Charts</span></a>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="feather-bar-chart-2"></i>
+                        <span>Medicine Type</span>
+                    </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="charts-google.html">Google</a></li>
+                        <li><a href="{{url('medicine_type/create')}}">Add Medicine Type</a></li>
+                        <li><a href="{{url('medicine_type')}}">Show Medicine Types</a></li>
                     </ul>
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" class="waves-effect"><i class="feather-book"></i><span class="badge badge-pill badge-danger float-right">6</span><span>Inventory</span></a>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="feather-book"></i>
+                        <span>Medicine</span>
+                    </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="#">Medicine</a></li>
+                        <li><a href="{{url('medicine/create')}}">Add Medicine </a></li>
+                        <li><a href="{{url('medicine')}}">Show Medicines </a></li>
+
                     </ul>
                 </li>
 
@@ -41,7 +57,9 @@
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect"><i class="feather-copy"></i><span>Pages</span></a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="pages-invoice.html">Invoice</a></li>
+                        <li>
+                            <a href="pages-invoice.html">Invoice</a>
+                        </li>
                     </ul>
                 </li>
 

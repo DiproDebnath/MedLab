@@ -7,7 +7,7 @@ use App\Medicine;
 use App\MedicineDatabase;
 use Illuminate\Http\Request;
 use Yajra\DataTables\DataTables;
-use function MongoDB\BSON\toJSON;
+
 
 class MedicineController extends Controller
 {

@@ -12,6 +12,7 @@
 */
 
 Route::resource('/medicine', 'MedicineController');
+Route::resource('/medicine_type', 'MedicineTypeController');
 Route::view('/manufacturer/create','manufacturer.AddManufacturer');
 Route::view('/medicine/type','medicine.AddMedicineType');
 Route::view('/purchase/create','purchase.AddPurchase');
