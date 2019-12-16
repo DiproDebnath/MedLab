@@ -29,28 +29,33 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">Medicines</h4>
+                                    <h4 class="card-title">Manufacturer</h4>
                                     <p class="card-subtitle mb-4">
-                                        Manage your medicine
+                                        Manage your Manufacturer
                                     </p>
 
                                     <table id="key-datatable" class="table dt-responsive" style="width:100%">
                                         <thead>
                                             <tr>
-                                                <th>Type ID</th>
-                                                <th>Type Name</th>
+                                                <th>ID</th>
+                                                <th>Manufacturer Name</th>
+                                                <th>Mobile</th>
+                                                <th>Address</th>
+                                                <th>Details</th>
                                                 <th class="text-center">Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                         @foreach($medicinetypes as  $medicinetype)
+                                         @foreach($manufacturer as  $manufacturer)
                                             <tr>
-                                                <td>{{$medicinetype->id}}</td>
-                                                <td>{{$medicinetype->type_name}}</td>
+                                                <td>{{$manufacturer->id}}</td>
+                                                <td>{{$manufacturer->manufacturer_name}}</td>
+                                                <td>{{$manufacturer->manufacturer_mobile}}</td>
+                                                <td>{{$manufacturer->manufacturer_address}}</td>
+                                                <td>{{$manufacturer->manufacturer_details}}</td>
                                                 <td class="text-center">
-                                                    <a href='{{route('medicine_type.edit', $medicinetype->id)}}' type="button" class="btn btn-outline-info mr-2 waves-effect waves-light"><i class=" mdi font-size-16 mdi-playlist-edit"></i></a>
-                                                    <button id="sa-delete" onclick="deleteFunction('{{route('medicine_type.destroy', $medicinetype->id)}}')" type="button" class="btn btn-outline-danger  waves-effect waves-light"><i class="mdi font-size-16 mdi-delete-sweep"></i></button>
-
+                                                    <a href='{{route('manufacturer.edit', $manufacturer->id)}}' type="button" class="btn btn-outline-info mr-2 waves-effect waves-light"><i class=" mdi font-size-16 mdi-playlist-edit"></i></a>
+                                                    <button id="sa-delete" onclick="deleteFunction('{{route('manufacturer.destroy', $manufacturer->id)}}')" type="button" class="btn btn-outline-danger  waves-effect waves-light"><i class="mdi font-size-16 mdi-delete-sweep"></i></button>
                                                 </td>
                                             </tr>
                                         @endforeach
@@ -74,10 +79,9 @@
         @endif
 
         var b  = $("#key-datatable").DataTable({
-
+            keys: !0,
             scrollX: true,
             buttons: ["copy", "print", "pdf"],
-
             language: {
                 paginate: {
                     previous: "<i class='mdi mdi-chevron-left'>",

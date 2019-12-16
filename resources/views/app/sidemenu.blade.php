@@ -23,7 +23,7 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="{{url('manufacturer/create')}}">Add Manufacturer</a></li>
-                        <li><a href="{{url('manufacturers')}}">Show Manufacturers</a></li>
+                        <li><a href="{{url('manufacturer')}}">Show Manufacturers</a></li>
                     </ul>
                 </li>
 

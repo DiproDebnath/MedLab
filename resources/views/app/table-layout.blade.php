@@ -2,6 +2,7 @@
 @extends('app.app')
 
 @section('header_files')
+    <link href="{{asset('assets/plugins/sweetalert2/sweetalert2.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('assets/plugins/datatables/dataTables.bootstrap4.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('assets/plugins/datatables/responsive.bootstrap4.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('assets/plugins/datatables/buttons.bootstrap4.css')}}" rel="stylesheet" type="text/css" />
@@ -28,6 +29,8 @@
     <script src="{{asset('assets/plugins/datatables/dataTables.select.min.js')}}"></script>
     <script src="{{asset('assets/plugins/datatables/pdfmake.min.js')}}"></script>
     <script src="{{asset('assets/plugins/datatables/vfs_fonts.js')}}"></script>
+    <script src="{{asset('assets/plugins/sweetalert2/sweetalert2.min.js')}}"></script>
+
     <!-- third party js ends -->
 @yield('script')
     <!-- Datatables init -->

@@ -77,15 +77,17 @@
             deferRender: true,
             ajax: window.location.href,
             columns: [
-                { data: "DT_RowIndex", searchable: "false", orderable: "false" },
+                { data: "id", name:'medicine_databases.id', searchable: false },
                 { data: "medicine_name", name: 'medicine_name' },
                 { data: "manufacturer_name", name: 'manufacturers.manufacturer_name' },
                 { data: "type_name", name: 'medicine_types.type_name' },
                 { data: "generic_name" },
                 { data: "strength" },
                 { data: "price" },
-                { data: "dash" }
+                { data: "action", name: 'action', orderable: false, searchable: false }
             ],
+
+
             language: {
                 paginate: {
                     previous: "<i class='mdi mdi-chevron-left'>",

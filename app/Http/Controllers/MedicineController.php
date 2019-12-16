@@ -22,11 +22,17 @@ class MedicineController extends Controller
          //getting data from database
          $medicine_database = MedicineDatabase::join('manufacturers', 'medicine_databases.manufacturer_id', '=', 'manufacturers.id' )
              ->join('medicine_types', 'medicine_databases.medicine_type_id', '=', 'medicine_types.id' )
-             ->select('medicine_name', 'generic_name', 'manufacturers.manufacturer_name', 'medicine_types.type_name', 'strength', 'price');
+             ->select('medicine_databases.id', 'medicine_name', 'generic_name', 'manufacturers.manufacturer_name', 'medicine_types.type_name', 'strength', 'price');
          return Datatables::of($medicine_database)
-             ->addIndexColumn()
              ->editColumn('price', '৳ {{$price}}')
-             ->addColumn('dash', function (){ return "dash";})
+             ->addColumn('action', function ($medicine_database){
+                 $btn = "<div style='min-width: 150px'>";
+
+                 $btn .= "<a href='". route('medicine.edit', $medicine_database->id)  ."' type=\"button\" class=\"btn btn-outline-info mr-2 waves-effect waves-light\"><i class=\" mdi font-size-16 mdi-playlist-edit\"></i></a>";
+                 $btn .= "<a href='". route('medicine.destroy', $medicine_database->id)  ."' type=\"button\" class=\"btn btn-outline-danger  waves-effect waves-light\"><i class=\"mdi font-size-16 mdi-delete-sweep\"></i></a>";
+                 $btn .= "</div>";
+                 return $btn;
+             })
              ->make(true);
      }
          return view('medicine.ShowMedicine');
@@ -40,7 +46,7 @@ class MedicineController extends Controller
      */
     public function create()
     {
-        return view('medicine.AddMedicine');
+        return view('medicine.MedicineForm');
     }
 
     /**
@@ -62,7 +68,7 @@ class MedicineController extends Controller
      */
     public function show(Medicine $medicine)
     {
-        //
+        return $medicine ;view('medicine.MedicineForm');
     }
 
     /**
@@ -73,7 +79,8 @@ class MedicineController extends Controller
      */
     public function edit(Medicine $medicine)
     {
-        //
+        return view('medicine.MedicineForm');
+
     }
 
     /**

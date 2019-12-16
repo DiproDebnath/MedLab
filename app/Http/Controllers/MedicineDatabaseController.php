@@ -15,6 +15,7 @@ class MedicineDatabaseController extends Controller
     public function index()
     {
         //
+        return "ehhloe";
     }
 
     /**
@@ -24,6 +25,7 @@ class MedicineDatabaseController extends Controller
      */
     public function create()
     {
+        return "ehhloe";
         //
     }
 
@@ -47,6 +49,7 @@ class MedicineDatabaseController extends Controller
     public function show(MedicineDatabase $medicineDatabase)
     {
         //
+        return "ehhloe";
     }
 
     /**

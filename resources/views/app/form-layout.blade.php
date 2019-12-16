@@ -22,7 +22,6 @@
     <script src="{{asset('assets/plugins/select2/select2.min.js')}}"></script>
     <script src="{{asset('assets/plugins/switchery/switchery.min.js')}}"></script>
 
-
     <!-- Custom Js -->
     <script src="{{asset('assets/pages/advanced-plugins-demo.js')}}"></script>
 

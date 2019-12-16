@@ -30,7 +30,7 @@ class MedicineTypeController extends Controller
     public function create()
     {
 
-        return view('medicineType.AddMedicineType');
+        return view('medicineType.MedicineTypeForm');
     }
 
     /**
@@ -41,18 +41,18 @@ class MedicineTypeController extends Controller
      */
     public function store(Request $request)
     {
-        //
-    }
+       $data =  $request->validate([
+            'type_name' => 'string|required|min:5',
+        ]);
+        $medicinetype = new MedicineType;
+        $medicinetype->type_name = $data['type_name'];
+        $medicinetype->save();
+        return redirect()->route('medicine_type.index')
+            ->with([
+                'message' => $medicinetype->type_name . ' Medicine Type Added',
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\MedicineType  $medicineType
-     * @return \Illuminate\Http\Response
-     */
-    public function show(MedicineType $medicineType)
-    {
-        //
+                'class'=> "alert-success"
+            ]);
     }
 
     /**
@@ -63,6 +63,8 @@ class MedicineTypeController extends Controller
      */
     public function edit(MedicineType $medicineType)
     {
+
+        return view('medicineType.MedicineTypeForm', compact('medicineType'));
         //
     }
 
@@ -75,7 +77,17 @@ class MedicineTypeController extends Controller
      */
     public function update(Request $request, MedicineType $medicineType)
     {
-        //
+        $data =  $request->validate([
+            'type_name' => 'string|required|min:5',
+        ]);
+        $medicineType->type_name = $data['type_name'];
+        $medicineType->save();
+        return redirect()->route('medicine_type.index')
+            ->with([
+                'message' => $medicineType->id . '. ' . $medicineType->type_name . ' Updated Successfully',
+                'class'=> "alert-success"
+            ]);
+
     }
 
     /**
@@ -86,6 +98,12 @@ class MedicineTypeController extends Controller
      */
     public function destroy(MedicineType $medicineType)
     {
-        //
+        $medicineType->delete();
+        return redirect()->route('medicine_type.index')
+            ->with([
+                'message' => $medicineType['id']. '. ' .$medicineType['type_name'] . ' Delete Successfully',
+                'class'=> "alert-danger"
+            ]);
+
     }
 }

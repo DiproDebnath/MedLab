@@ -6,7 +6,9 @@ $(document).ready(function() {
     btn.addEventListener("click", () => {
         var div = document.querySelector(".dataTables_scrollHeadInner");
         div.style.width = div.firstChild.style.width = "100%";
-    });i
+    });
 
-    // b.buttons().container().appendTo("#key-datatable_wrapper .col-md-6:eq(0)");
+
+
+
 });
