@@ -33,24 +33,12 @@
                                                 <th>Medicine Type</th>
                                                 <th>Generic Name</th>
                                                 <th>Strength</th>
-                                                <th>Price</th>
+                                                <th>Unit</th>
+                                                <th>Unit Price</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                        {{-- @foreach($medicines as $key => $medicine)
-                                            <tr>
-                                                <td>{{++$key}}</td>
-                                                <td>{{$medicine->medicine_name}}</td>
-                                                <td>{{$medicine->medicinetype->type_name}}</td>
-                                                <td>{{$medicine->generic_name}}</td>
-                                                <td>{{$medicine->manufacturer->manufacturer_name}}</td>
-                                                <td>{{$medicine->strength}}</td>
-                                                <td>{{$medicine->price}}</td>
-                                                <td> .</td>
-
-                                            </tr>
-                                        @endforeach --}}
                                         </tbody>
                                     </table>
 
@@ -77,13 +65,14 @@
             deferRender: true,
             ajax: window.location.href,
             columns: [
-                { data: "id", name:'medicine_databases.id', searchable: false },
+                { data: "id", name:'medicines.id', searchable: false },
                 { data: "medicine_name", name: 'medicine_name' },
                 { data: "manufacturer_name", name: 'manufacturers.manufacturer_name' },
                 { data: "type_name", name: 'medicine_types.type_name' },
                 { data: "generic_name" },
                 { data: "strength" },
-                { data: "price" },
+                { data: "unit" },
+                { data: "unit_price" },
                 { data: "action", name: 'action', orderable: false, searchable: false }
             ],
 
